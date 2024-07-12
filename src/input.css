@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brandsection .swiper-slide img {
+    @apply opacity-20 transition-opacity duration-300 ease-in-out;
+}
+
+.brandsection .swiper-slide:hover img {
+    @apply opacity-100;
+}
