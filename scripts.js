@@ -26,10 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-});
-
-//rotate small screen nav icon
-document.addEventListener('DOMContentLoaded', () => {
+    // rotate icon on click
     const serviceLinks = document.querySelectorAll('.service-link');
     serviceLinks.forEach(link => {
         link.addEventListener('click', (event) => {
